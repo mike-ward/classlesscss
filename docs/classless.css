@@ -22,7 +22,7 @@ ul, ol, dl, fieldset, pre, pre > code {
 body { 
 	margin: auto; 
 	max-width: 50rem; 
-	padding: 2rem 0.5rem 0rem; 
+	padding: 0.5rem 0rem; 
 	overflow-x: hidden; 
 }
 footer { margin: 10rem 0rem 0rem; }
@@ -35,8 +35,10 @@ small, sub, sup { font-size: 75%; }
 
 /* headings */
 h1, h2, h3, h4, h5, h6 { 
-	margin: 1.5em 0 0em; 
-	padding: 0.3em 0; 
+	margin: 1.5em 0 0; 
+	padding: 0.3em 0;
+	margin-block-start: 0;
+	margin-block-end: 0
 }
 h1 { font-size: 2.5em; font-weight: 300; }  
 h2 { font-size: 2.0em; font-weight: 300; } 
